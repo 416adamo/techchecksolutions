@@ -5,7 +5,7 @@ title = 'TechCheck Solutions'
 [params]
   description = "Practical tech advice for real people — guides, tools, and hands-on help when you need it."
   author = "TechCheck Solutions"
-  googleAnalytics = ""
+  googleAnalytics = "G-FZ91CVWT2Y"
 
 [[menus.main]]
   name = "Home"
