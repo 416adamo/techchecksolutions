@@ -1,0 +1,38 @@
+baseURL = 'https://techchecksolutions.com/'
+locale = 'en-ca'
+title = 'TechCheck Solutions'
+
+[params]
+  description = "Practical tech advice for real people — guides, tools, and hands-on help when you need it."
+  author = "TechCheck Solutions"
+  googleAnalytics = ""
+
+[[menus.main]]
+  name = "Home"
+  url = "/"
+  weight = 1
+[[menus.main]]
+  name = "Blog"
+  url = "/blog/"
+  weight = 2
+[[menus.main]]
+  name = "Resources"
+  url = "/resources/"
+  weight = 3
+[[menus.main]]
+  name = "Services"
+  url = "/services/"
+  weight = 4
+[[menus.main]]
+  name = "About"
+  url = "/about/"
+  weight = 5
+[[menus.main]]
+  name = "Contact"
+  url = "/contact/"
+  weight = 6
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

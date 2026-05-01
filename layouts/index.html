@@ -1,0 +1,93 @@
+{{ define "main" }}
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-badge">Your Trusted Tech Resource</div>
+  <h1>Practical Tech Advice for <em>Real People</em></h1>
+  <p>Guides, tips, and hands-on help to get more out of your PC and tech — without the jargon.</p>
+  <div class="hero-buttons">
+    <a href="/blog/" class="btn-primary">Read the Blog</a>
+    <a href="/resources/" class="btn-secondary">Free Resources</a>
+  </div>
+</section>
+
+<!-- LATEST POSTS -->
+<section class="section">
+  <div class="section-label">Latest Articles</div>
+  <h2 class="section-title">Fresh From the Blog</h2>
+  <p class="section-sub">Practical guides and tips published regularly. No fluff, just useful stuff.</p>
+  <div class="cards-grid">
+    {{ range first 3 (where .Site.RegularPages "Section" "blog") }}
+    <article class="card">
+      <div class="card-img-placeholder"></div>
+      <div class="card-body">
+        <span class="card-tag">{{ .Params.category | default "Tech" }}</span>
+        <h3 class="card-title">{{ .Title }}</h3>
+        <p class="card-excerpt">{{ .Summary | truncate 120 }}</p>
+        <div class="card-meta">{{ .Date.Format "Jan 2, 2006" }}</div>
+        <a href="{{ .Permalink }}" class="card-link">Read More →</a>
+      </div>
+    </article>
+    {{ else }}
+    <!-- Placeholder cards shown before any posts exist -->
+    {{ range seq 3 }}
+    <article class="card">
+      <div class="card-img-placeholder"></div>
+      <div class="card-body">
+        <span class="card-tag">Coming Soon</span>
+        <h3 class="card-title">First articles dropping soon</h3>
+        <p class="card-excerpt">Practical guides, upgrade tips, and hands-on tech advice are on the way.</p>
+      </div>
+    </article>
+    {{ end }}
+    {{ end }}
+  </div>
+  <a href="/blog/" class="view-all">View All Articles →</a>
+</section>
+
+<!-- WHAT WE COVER -->
+<section class="section section-dark">
+  <div class="section-label">What You'll Find Here</div>
+  <h2 class="section-title">Everything Tech, Simplified</h2>
+  <p class="section-sub">From fixing a slow PC to building your first home server — we cover it all.</p>
+  <div class="features-grid">
+    <div class="feature-box">
+      <div class="feature-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg>
+      </div>
+      <h3>PC Tips & Upgrades</h3>
+      <p>Speed up your PC, upgrade the right parts, and get more life out of your machine without wasting money.</p>
+    </div>
+    <div class="feature-box">
+      <div class="feature-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+      </div>
+      <h3>Home Servers & Plex</h3>
+      <p>Set up your own media server, NAS, or home lab. Step-by-step guides for beginners and enthusiasts alike.</p>
+    </div>
+    <div class="feature-box">
+      <div class="feature-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+      </div>
+      <h3>Buying Guides</h3>
+      <p>Cut through the noise. Honest recommendations on hardware, peripherals, and software that actually deliver.</p>
+    </div>
+    <div class="feature-box">
+      <div class="feature-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 8v4l3 3"/></svg>
+      </div>
+      <h3>Troubleshooting</h3>
+      <p>Common PC problems explained and solved. No tech degree required — just clear, step-by-step fixes.</p>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES CTA -->
+<section class="section section-alt text-center">
+  <div class="section-label">Need Hands-On Help?</div>
+  <h2 class="section-title">We Also Offer Tech Services</h2>
+  <p class="section-sub" style="margin: 0 auto 36px;">PC repair, tune-ups, and web design for small businesses — serving the Durham Region and beyond.</p>
+  <a href="/services/" class="btn-primary">See Our Services</a>
+</section>
+
+{{ end }}

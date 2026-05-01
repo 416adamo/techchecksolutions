@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog on TechCheck Solutions</title>
+    <link>http://localhost:1313/blog/</link>
+    <description>Recent content in Blog on TechCheck Solutions</description>
+    <generator>Hugo</generator>
+    <language>en-ca</language>
+    <lastBuildDate>Thu, 30 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Is Your PC Too Slow? Here&#39;s Why (And How to Fix It)</title>
+      <link>http://localhost:1313/blog/is-your-pc-too-slow-heres-why/</link>
+      <pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/is-your-pc-too-slow-heres-why/</guid>
+      <description>A slow PC is frustrating — but the fix is usually simpler than you think. Here are the most common causes and exactly what to do about them.</description>
+    </item>
+  </channel>
+</rss>
