@@ -2,17 +2,66 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blog on TechCheck Solutions</title>
-    <link>http://localhost:1313/blog/</link>
+    <link>https://techchecksolutions.com/blog/</link>
     <description>Recent content in Blog on TechCheck Solutions</description>
     <generator>Hugo</generator>
     <language>en-ca</language>
-    <lastBuildDate>Thu, 30 Apr 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 01 May 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://techchecksolutions.com/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Already Running a Plex Server? You Don&#39;t Need Google Photos Anymore</title>
+      <link>https://techchecksolutions.com/blog/plex-google-photos-replacement/</link>
+      <pubDate>Fri, 01 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://techchecksolutions.com/blog/plex-google-photos-replacement/</guid>
+      <description>Google Photos keeps shrinking your free storage and your private memories are sitting on someone else&amp;rsquo;s server. If you&amp;rsquo;re already running Plex, you&amp;rsquo;re closer to fixing both of those problems than you think.</description>
+    </item>
+    <item>
+      <title>HDD vs SSD: What&#39;s the Difference and Which One Do You Need?</title>
+      <link>https://techchecksolutions.com/blog/hdd-vs-ssd/</link>
+      <pubDate>Fri, 01 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://techchecksolutions.com/blog/hdd-vs-ssd/</guid>
+      <description>Hard drives are cheap. SSDs are fast. But which one actually makes sense for your situation? Here&amp;rsquo;s the honest breakdown — no jargon, no fluff.</description>
+    </item>
+    <item>
+      <title>How Much RAM Do You Actually Need?</title>
+      <link>https://techchecksolutions.com/blog/how-much-ram-do-you-need/</link>
+      <pubDate>Fri, 01 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://techchecksolutions.com/blog/how-much-ram-do-you-need/</guid>
+      <description>8GB, 16GB, 32GB — the options are everywhere and the marketing makes all of it sound necessary. Here&amp;rsquo;s what you actually need based on what you actually do.</description>
+    </item>
+    <item>
+      <title>RAM Is Expensive Right Now — Here&#39;s How to Not Get Ripped Off</title>
+      <link>https://techchecksolutions.com/blog/ram-expensive-how-to-not-get-ripped-off/</link>
+      <pubDate>Fri, 01 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://techchecksolutions.com/blog/ram-expensive-how-to-not-get-ripped-off/</guid>
+      <description>RAM prices are up and the reasons behind it aren&amp;rsquo;t great. Here&amp;rsquo;s what&amp;rsquo;s driving the cost and exactly how to shop smart so you&amp;rsquo;re not overpaying.</description>
+    </item>
+    <item>
+      <title>Should You Repair or Replace Your Old PC?</title>
+      <link>https://techchecksolutions.com/blog/should-you-repair-or-replace-your-pc/</link>
+      <pubDate>Fri, 01 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://techchecksolutions.com/blog/should-you-repair-or-replace-your-pc/</guid>
+      <description>Your PC is slow, something broke, or it just feels done. Before you spend money in either direction, here&amp;rsquo;s how to figure out which one actually makes sense.</description>
+    </item>
+    <item>
+      <title>What Happens If You Never Clean Your PC?</title>
+      <link>https://techchecksolutions.com/blog/what-happens-if-you-never-clean-your-pc/</link>
+      <pubDate>Fri, 01 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://techchecksolutions.com/blog/what-happens-if-you-never-clean-your-pc/</guid>
+      <description>Dust doesn&amp;rsquo;t just make your PC look dirty — it quietly destroys it from the inside. Here&amp;rsquo;s what&amp;rsquo;s actually happening in there and how to stop it.</description>
+    </item>
+    <item>
+      <title>What Is Plex and Why Every Media Lover Needs It</title>
+      <link>https://techchecksolutions.com/blog/what-is-plex/</link>
+      <pubDate>Fri, 01 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://techchecksolutions.com/blog/what-is-plex/</guid>
+      <description>Plex turns your computer into your own personal Netflix — free, no subscriptions, and you own everything on it. Here&amp;rsquo;s what it is and why you&amp;rsquo;ll wish you&amp;rsquo;d set it up sooner.</description>
+    </item>
     <item>
       <title>Is Your PC Too Slow? Here&#39;s Why (And How to Fix It)</title>
-      <link>http://localhost:1313/blog/is-your-pc-too-slow-heres-why/</link>
+      <link>https://techchecksolutions.com/blog/is-your-pc-too-slow-heres-why/</link>
       <pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/is-your-pc-too-slow-heres-why/</guid>
+      <guid>https://techchecksolutions.com/blog/is-your-pc-too-slow-heres-why/</guid>
       <description>A slow PC is frustrating — but the fix is usually simpler than you think. Here are the most common causes and exactly what to do about them.</description>
     </item>
   </channel>

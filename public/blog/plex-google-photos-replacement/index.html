@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Already Running a Plex Server? You Don&#39;t Need Google Photos Anymore | TechCheck Solutions</title>
+  <meta name="description" content="Practical tech advice for real people — guides, tools, and hands-on help when you need it." />
+  <link rel="stylesheet" href="/css/main.css" />
+  
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-FZ91CVWT2Y"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-FZ91CVWT2Y');
+  </script>
+  
+</head>
+<body>
+
+
+<nav>
+  <a href="/" class="nav-logo">
+    <img src="/img/logo.png" alt="TechCheck Solutions" />
+  </a>
+  <ul class="nav-links" id="nav-links">
+    
+      
+        <li><a href="/">Home</a></li>
+      
+    
+      
+        <li><a href="/blog/">Blog</a></li>
+      
+    
+      
+        <li><a href="/resources/">Resources</a></li>
+      
+    
+      
+        <li><a href="/services/">Services</a></li>
+      
+    
+      
+        <li><a href="/about/">About</a></li>
+      
+    
+      
+        <li><a href="/contact/" class="nav-cta">Contact</a></li>
+      
+    
+  </ul>
+  <button class="nav-toggle" id="nav-toggle" aria-label="Toggle menu">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+
+<main>
+  
+
+<article class="post-layout">
+  <div class="post-header">
+    <span class="post-tag">PC Tips</span>
+    <h1 class="post-title">Already Running a Plex Server? You Don&#39;t Need Google Photos Anymore</h1>
+    <div class="post-meta">
+      <span>·</span>
+      <span>6 min read</span>
+    </div>
+  </div>
+
+  <div class="post-content">
+    <p>Google Photos is genuinely great software. Nobody&rsquo;s arguing that. But at some point you hit the storage limit, Google holds your hand out for a monthly payment, and you realize that every photo you&rsquo;ve ever taken is sitting on a Google server somewhere. That part sits a little differently depending on how you feel about it.</p>
+<p>If you&rsquo;re already running a Plex server at home, you have everything you need to replace Google Photos entirely. It takes about an hour to set up, costs nothing, and once it&rsquo;s running you never think about it again.</p>
+<p>Here&rsquo;s exactly how I have mine set up.</p>
+<h2 id="the-problem-with-google-photos">The Problem With Google Photos</h2>
+<p>It&rsquo;s not that Google Photos is bad. It&rsquo;s that you don&rsquo;t own any of it. Your photos live on Google&rsquo;s infrastructure, subject to Google&rsquo;s terms, Google&rsquo;s pricing, and whatever Google decides to do next. Remember when they changed the storage policy and suddenly everyone&rsquo;s free unlimited storage wasn&rsquo;t unlimited anymore? That wasn&rsquo;t a surprise — it was always their call to make.</p>
+<p>There&rsquo;s also the privacy angle. Every photo you take automatically uploads to a company that makes its money from data. Most people shrug at this. Some people don&rsquo;t. Either way, there&rsquo;s an alternative.</p>
+<h2 id="the-shoebox-analogy">The Shoebox Analogy</h2>
+<p>Think about how people used to store photos before smartphones. Printed copies in a shoebox under the bed. Nobody could access them but you. Nobody could change the rules on you. They were just yours.</p>
+<p>Google Photos is like handing your shoebox to a very organised friend who promises to keep it safe, sort everything by date, and let you look through it whenever you want — as long as you keep paying them and they don&rsquo;t change their mind.</p>
+<p>What we&rsquo;re building here is your own organised shoebox. Still sorted, still searchable, still accessible from your phone anywhere in the world — but sitting on your computer at home, not someone else&rsquo;s server.</p>
+<h2 id="what-you-need">What You Need</h2>
+<ul>
+<li>A computer running Plex (which you already have)</li>
+<li>Resilio Sync — free app, available on Windows, Mac, Linux, iOS and Android</li>
+<li>The Plex Photos app on your phone</li>
+<li>About an hour</li>
+</ul>
+<p>That&rsquo;s it. No subscriptions, no new hardware, nothing to buy.</p>
+<h2 id="how-it-works">How It Works</h2>
+<p><strong>Resilio Sync</strong> is the key piece here. It&rsquo;s a sync app that connects folders across devices directly — no cloud middleman. Whatever goes into a watched folder on your phone shows up in the corresponding folder on your PC automatically, over Wi-Fi or mobile data.</p>
+<p>I set up three synced folders: my camera roll, my WhatsApp images, and my message photos. The moment a new photo hits any of those folders on my phone, it syncs straight to my Plex PC. I also have it syncing to my main desktop as a second backup — so every photo I take ends up in two places on my home network without me doing anything.</p>
+<p><strong>Plex</strong> then reads the folder where those photos land and organises them into a proper photo library — sorted by date, searchable, with a clean interface. Pull up the Plex Photos app on your phone and it looks and feels like a proper photo gallery. Your whole collection, available anywhere you have internet.</p>
+<h2 id="setting-it-up">Setting It Up</h2>
+<p><strong>Step 1 — Install Resilio Sync</strong></p>
+<p>Download Resilio Sync on your PC from their website and install it. Then install the Resilio Sync app on your phone from the App Store or Google Play.</p>
+<p>Create a folder on your Plex PC where you want your phone photos to land — something like <code>C:\PlexMedia\PhonePhotos\Camera</code>. In Resilio Sync on your PC, add that folder and it&rsquo;ll give you a link or key to connect it.</p>
+<p>On your phone, open Resilio Sync, tap the plus button, and paste in that key. Point it at your phone&rsquo;s camera folder. From now on, new photos sync automatically.</p>
+<p>Repeat this for any other folders you want — WhatsApp images, screenshots, whatever makes sense for you.</p>
+<p><strong>Step 2 — Add the folder to Plex</strong></p>
+<p>In Plex, go to your libraries and add a new <strong>Photos</strong> library. Point it at the folder where your synced photos are landing. Plex will scan everything and build your library.</p>
+<p>One tip here: keep your camera photos in their own folder separate from WhatsApp and message images. Plex handles a clean camera roll beautifully. A mix of memes, screenshots and WhatsApp stickers alongside your actual photos can make the library feel messy.</p>
+<p><strong>Step 3 — Install Plex Photos on your phone</strong></p>
+<p>Download the Plex Photos app — it&rsquo;s separate from the main Plex app and built specifically for this. Sign into your Plex account and your photo library shows up exactly like Google Photos. Scroll by date, search, share — all of it works.</p>
+<h2 id="the-dual-backup-youre-getting-for-free">The Dual Backup You&rsquo;re Getting for Free</h2>
+<p>Here&rsquo;s the part that doesn&rsquo;t get talked about enough. Because I have Resilio Sync pushing to two machines — my Plex PC and my main desktop — every photo I take gets backed up to two separate physical locations automatically.</p>
+<p>Google Photos is one location. One company. One decision away from changing the terms.</p>
+<p>This setup gives you two physical copies on hardware you own, plus whatever&rsquo;s still on your phone. That&rsquo;s genuinely better backup than most people have.</p>
+<h2 id="what-about-the-plex-pass">What About the <a href="https://www.plex.tv/plex-pass/">Plex Pass</a>?</h2>
+<p>The photo library features in Plex work on the free tier, but remote access — actually viewing your photos from outside your home network — requires a Plex Pass. Which means if you want this setup to truly replace Google Photos and work anywhere in the world, you need it. That said, the <a href="https://www.plex.tv/plex-pass/">Plex Pass Lifetime</a> is a one time purchase. No monthly fee, no annual renewal, no surprises. You pay once and remote access is yours forever. For something you&rsquo;re going to use every day, that&rsquo;s a pretty easy decision.</p>
+<hr>
+<blockquote>
+<p><strong>Adam&rsquo;s Take:</strong> I&rsquo;ve been running this setup for a while now and I genuinely don&rsquo;t miss Google Photos. My photos are on my hardware, backed up twice, accessible from my phone anywhere in the world. The setup took me an afternoon and I haven&rsquo;t touched it since — it just runs. If you&rsquo;re already hosting Plex you&rsquo;re doing most of the work already, Resilio Sync is the missing piece that ties it all together. The only thing I&rsquo;d say is keep your camera folder clean and separate from WhatsApp images in Plex — it keeps the library looking the way you actually want it to.</p>
+</blockquote>
+
+  </div>
+
+  <div style="margin-top: 64px; padding-top: 32px; border-top: 1px solid var(--border);">
+    <a href="/blog/" style="color: var(--blue); font-weight: 600;">← Back to Blog</a>
+  </div>
+</article>
+
+
+</main>
+
+
+<footer>
+  <div class="footer-grid">
+    <div class="footer-brand">
+      <img src="/img/logo.png" alt="TechCheck Solutions" />
+      <p>Practical tech advice for real people — guides, tools, and hands-on help when you need it.</p>
+    </div>
+    <div class="footer-col">
+      <h4>Explore</h4>
+      <ul>
+        <li><a href="/blog/">Blog</a></li>
+        <li><a href="/resources/">Resources</a></li>
+        <li><a href="/services/">Services</a></li>
+        <li><a href="/about/">About</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Get In Touch</h4>
+      <ul>
+        <li><a href="/contact/">Contact Us</a></li>
+        <li><a href="https://www.facebook.com/profile.php?id=61572105724113" target="_blank" rel="noopener">Facebook</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>© 2026 TechCheck Solutions · Whitby, Ontario</p>
+    <div class="footer-social">
+      <a href="https://www.facebook.com/profile.php?id=61572105724113" target="_blank" rel="noopener" aria-label="Facebook">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073C24 5.405 18.627 0 12 0S0 5.405 0 12.073C0 18.1 4.388 23.094 10.125 24v-8.437H7.078v-3.49h3.047V9.41c0-3.025 1.792-4.697 4.533-4.697 1.312 0 2.686.235 2.686.235v2.97h-1.513c-1.491 0-1.956.93-1.956 1.874v2.25h3.328l-.532 3.49h-2.796V24C19.612 23.094 24 18.1 24 12.073z"/></svg>
+      </a>
+    </div>
+  </div>
+</footer>
+
+<script>
+  const toggle = document.getElementById('nav-toggle');
+  const links = document.getElementById('nav-links');
+  toggle.addEventListener('click', () => links.classList.toggle('open'));
+</script>
+
+</body>
+</html>

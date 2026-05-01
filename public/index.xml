@@ -2,45 +2,101 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>TechCheck Solutions</title>
-    <link>http://localhost:1313/</link>
+    <link>https://techchecksolutions.com/</link>
     <description>Recent content on TechCheck Solutions</description>
     <generator>Hugo</generator>
     <language>en-ca</language>
-    <lastBuildDate>Thu, 30 Apr 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 01 May 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://techchecksolutions.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Already Running a Plex Server? You Don&#39;t Need Google Photos Anymore</title>
+      <link>https://techchecksolutions.com/blog/plex-google-photos-replacement/</link>
+      <pubDate>Fri, 01 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://techchecksolutions.com/blog/plex-google-photos-replacement/</guid>
+      <description>Google Photos keeps shrinking your free storage and your private memories are sitting on someone else&amp;rsquo;s server. If you&amp;rsquo;re already running Plex, you&amp;rsquo;re closer to fixing both of those problems than you think.</description>
+    </item>
+    <item>
+      <title>HDD vs SSD: What&#39;s the Difference and Which One Do You Need?</title>
+      <link>https://techchecksolutions.com/blog/hdd-vs-ssd/</link>
+      <pubDate>Fri, 01 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://techchecksolutions.com/blog/hdd-vs-ssd/</guid>
+      <description>Hard drives are cheap. SSDs are fast. But which one actually makes sense for your situation? Here&amp;rsquo;s the honest breakdown — no jargon, no fluff.</description>
+    </item>
+    <item>
+      <title>How Much RAM Do You Actually Need?</title>
+      <link>https://techchecksolutions.com/blog/how-much-ram-do-you-need/</link>
+      <pubDate>Fri, 01 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://techchecksolutions.com/blog/how-much-ram-do-you-need/</guid>
+      <description>8GB, 16GB, 32GB — the options are everywhere and the marketing makes all of it sound necessary. Here&amp;rsquo;s what you actually need based on what you actually do.</description>
+    </item>
+    <item>
+      <title>RAM Is Expensive Right Now — Here&#39;s How to Not Get Ripped Off</title>
+      <link>https://techchecksolutions.com/blog/ram-expensive-how-to-not-get-ripped-off/</link>
+      <pubDate>Fri, 01 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://techchecksolutions.com/blog/ram-expensive-how-to-not-get-ripped-off/</guid>
+      <description>RAM prices are up and the reasons behind it aren&amp;rsquo;t great. Here&amp;rsquo;s what&amp;rsquo;s driving the cost and exactly how to shop smart so you&amp;rsquo;re not overpaying.</description>
+    </item>
+    <item>
+      <title>Should You Repair or Replace Your Old PC?</title>
+      <link>https://techchecksolutions.com/blog/should-you-repair-or-replace-your-pc/</link>
+      <pubDate>Fri, 01 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://techchecksolutions.com/blog/should-you-repair-or-replace-your-pc/</guid>
+      <description>Your PC is slow, something broke, or it just feels done. Before you spend money in either direction, here&amp;rsquo;s how to figure out which one actually makes sense.</description>
+    </item>
+    <item>
+      <title>Thank You!</title>
+      <link>https://techchecksolutions.com/thank-you/</link>
+      <pubDate>Fri, 01 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://techchecksolutions.com/thank-you/</guid>
+      <description>&lt;p&gt;Thanks for reaching out! I&amp;rsquo;ll get back to you within 24 hours on business days.&lt;/p&gt;&#xA;&lt;p&gt;In the meantime feel free to check out the &lt;a href=&#34;https://techchecksolutions.com/blog/&#34;&gt;blog&lt;/a&gt; or grab the &lt;a href=&#34;https://techchecksolutions.com/resources/&#34;&gt;free PC guides&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>What Happens If You Never Clean Your PC?</title>
+      <link>https://techchecksolutions.com/blog/what-happens-if-you-never-clean-your-pc/</link>
+      <pubDate>Fri, 01 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://techchecksolutions.com/blog/what-happens-if-you-never-clean-your-pc/</guid>
+      <description>Dust doesn&amp;rsquo;t just make your PC look dirty — it quietly destroys it from the inside. Here&amp;rsquo;s what&amp;rsquo;s actually happening in there and how to stop it.</description>
+    </item>
+    <item>
+      <title>What Is Plex and Why Every Media Lover Needs It</title>
+      <link>https://techchecksolutions.com/blog/what-is-plex/</link>
+      <pubDate>Fri, 01 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://techchecksolutions.com/blog/what-is-plex/</guid>
+      <description>Plex turns your computer into your own personal Netflix — free, no subscriptions, and you own everything on it. Here&amp;rsquo;s what it is and why you&amp;rsquo;ll wish you&amp;rsquo;d set it up sooner.</description>
+    </item>
     <item>
       <title>About TechCheck Solutions</title>
-      <link>http://localhost:1313/about/</link>
+      <link>https://techchecksolutions.com/about/</link>
       <pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/about/</guid>
+      <guid>https://techchecksolutions.com/about/</guid>
       <description>&lt;h2 id=&#34;who-we-are&#34;&gt;Who We Are&lt;/h2&gt;&#xA;&lt;p&gt;TechCheck Solutions is run by Adam — a tech enthusiast and IT professional based in Whitby, Ontario with years of hands-on experience in PC repair, networking, and web development.&lt;/p&gt;&#xA;&lt;p&gt;After working in enterprise IT and running his own repair business, Adam started TechCheck Solutions to bring practical, no-nonsense tech help to everyday people and small businesses in the Durham Region and beyond.&lt;/p&gt;&#xA;&lt;h2 id=&#34;what-we-do&#34;&gt;What We Do&lt;/h2&gt;&#xA;&lt;p&gt;This site is your go-to resource for:&lt;/p&gt;</description>
     </item>
     <item>
       <title>Contact Us</title>
-      <link>http://localhost:1313/contact/</link>
+      <link>https://techchecksolutions.com/contact/</link>
       <pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/contact/</guid>
+      <guid>https://techchecksolutions.com/contact/</guid>
       <description>&lt;h2 id=&#34;get-in-touch&#34;&gt;Get In Touch&lt;/h2&gt;&#xA;&lt;p&gt;Whether you need a quote, have a tech question, or just want to say hello — fill out the form below and we&amp;rsquo;ll get back to you as soon as possible.&lt;/p&gt;&#xA;&lt;p&gt;You can also reach us directly on &lt;a href=&#34;https://www.facebook.com/profile.php?id=61572105724113&#34;&gt;Facebook&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;h2 id=&#34;response-time&#34;&gt;Response Time&lt;/h2&gt;&#xA;&lt;p&gt;We typically respond within 24 hours on business days.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Is Your PC Too Slow? Here&#39;s Why (And How to Fix It)</title>
-      <link>http://localhost:1313/blog/is-your-pc-too-slow-heres-why/</link>
+      <link>https://techchecksolutions.com/blog/is-your-pc-too-slow-heres-why/</link>
       <pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/is-your-pc-too-slow-heres-why/</guid>
+      <guid>https://techchecksolutions.com/blog/is-your-pc-too-slow-heres-why/</guid>
       <description>A slow PC is frustrating — but the fix is usually simpler than you think. Here are the most common causes and exactly what to do about them.</description>
     </item>
     <item>
       <title>Resources</title>
-      <link>http://localhost:1313/resources/</link>
+      <link>https://techchecksolutions.com/resources/</link>
       <pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/resources/</guid>
+      <guid>https://techchecksolutions.com/resources/</guid>
       <description>&lt;h2 id=&#34;free-resources&#34;&gt;Free Resources&lt;/h2&gt;&#xA;&lt;p&gt;Everything here is free. No email required, no strings attached — just useful stuff.&lt;/p&gt;&#xA;&lt;h3 id=&#34;pc-upgrade-decision-guide&#34;&gt;PC Upgrade Decision Guide&lt;/h3&gt;&#xA;&lt;p&gt;Not sure whether to upgrade your current PC or buy a new one? This guide walks you through exactly what to look at and what questions to ask before spending any money.&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;Coming soon.&lt;/em&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;plex--home-server-starter-guide&#34;&gt;Plex &amp;amp; Home Server Starter Guide&lt;/h3&gt;&#xA;&lt;p&gt;Want to set up your own media server but don&amp;rsquo;t know where to start? This beginner-friendly guide covers everything from hardware to setup.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Services</title>
-      <link>http://localhost:1313/services/</link>
+      <link>https://techchecksolutions.com/services/</link>
       <pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/services/</guid>
+      <guid>https://techchecksolutions.com/services/</guid>
       <description>&lt;h2 id=&#34;pc-repair--tune-ups&#34;&gt;PC Repair &amp;amp; Tune-Ups&lt;/h2&gt;&#xA;&lt;p&gt;Is your PC running slow, crashing, or just not performing like it used to? We offer fast, affordable repair and maintenance services to get you back up and running.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Virus and malware removal&lt;/li&gt;&#xA;&lt;li&gt;Performance tune-ups and optimization&lt;/li&gt;&#xA;&lt;li&gt;Hardware diagnostics and repair&lt;/li&gt;&#xA;&lt;li&gt;RAM, SSD, and component upgrades&lt;/li&gt;&#xA;&lt;li&gt;Thermal paste replacement and cleaning&lt;/li&gt;&#xA;&lt;li&gt;Windows reinstallation and data backup&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;web-design-for-small-businesses&#34;&gt;Web Design for Small Businesses&lt;/h2&gt;&#xA;&lt;p&gt;Need a professional website that actually brings in customers? We build clean, fast, modern websites for small businesses — no bloated page builders, no monthly fees to us.&lt;/p&gt;</description>
     </item>
   </channel>

@@ -2,29 +2,53 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/about/</loc>
+    <loc>https://techchecksolutions.com/blog/plex-google-photos-replacement/</loc>
+    <lastmod>2026-05-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techchecksolutions.com/blog/</loc>
+    <lastmod>2026-05-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techchecksolutions.com/blog/hdd-vs-ssd/</loc>
+    <lastmod>2026-05-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techchecksolutions.com/blog/how-much-ram-do-you-need/</loc>
+    <lastmod>2026-05-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techchecksolutions.com/blog/ram-expensive-how-to-not-get-ripped-off/</loc>
+    <lastmod>2026-05-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techchecksolutions.com/blog/should-you-repair-or-replace-your-pc/</loc>
+    <lastmod>2026-05-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techchecksolutions.com/</loc>
+    <lastmod>2026-05-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techchecksolutions.com/thank-you/</loc>
+    <lastmod>2026-05-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techchecksolutions.com/blog/what-happens-if-you-never-clean-your-pc/</loc>
+    <lastmod>2026-05-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techchecksolutions.com/blog/what-is-plex/</loc>
+    <lastmod>2026-05-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://techchecksolutions.com/about/</loc>
     <lastmod>2026-04-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/</loc>
+    <loc>https://techchecksolutions.com/contact/</loc>
     <lastmod>2026-04-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/contact/</loc>
+    <loc>https://techchecksolutions.com/blog/is-your-pc-too-slow-heres-why/</loc>
     <lastmod>2026-04-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/is-your-pc-too-slow-heres-why/</loc>
+    <loc>https://techchecksolutions.com/resources/</loc>
     <lastmod>2026-04-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/resources/</loc>
+    <loc>https://techchecksolutions.com/services/</loc>
     <lastmod>2026-04-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/services/</loc>
-    <lastmod>2026-04-30T00:00:00+00:00</lastmod>
+    <loc>https://techchecksolutions.com/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2026-04-30T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/</loc>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://techchecksolutions.com/tags/</loc>
   </url>
 </urlset>
