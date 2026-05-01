@@ -49,6 +49,7 @@ Plex Pass adds:
 - **Hardware transcoding** — makes streaming smoother on less powerful hardware
 - **Lyrics and music features** if you're using Plex for your music library
 - **Early access** to new features
+- **Remote access** — stream your entire library from anywhere in the world, not just your home network
 
 For most people the free version is enough to start. But if you get into Plex seriously — and most people do — the [Plex Pass Lifetime](https://www.plex.tv/plex-pass/) is one of the best value purchases in tech. You pay once and never think about it again. No monthly fee, no annual renewal, just permanent access to every feature they ever add. For anyone who's going to use Plex long term, the Lifetime Pass is the move.
 
