@@ -6,47 +6,53 @@
   <p>Practical articles to help you get more out of your PC and tech — updated regularly.</p>
 </div>
 
-<div class="blog-layout">
-  <div class="blog-main">
-    {{ if .Pages }}
-      <div class="cards-grid">
-        {{ range .Pages }}
-        <article class="card">
-          <div class="card-img-placeholder"></div>
-          <div class="card-body">
-            <span class="card-tag">{{ .Params.category | default "Tech" }}</span>
-            <h2 class="card-title">{{ .Title }}</h2>
-            <p class="card-excerpt">{{ .Summary | truncate 120 }}</p>
-            <div class="card-meta">{{ .Date.Format "Jan 2, 2006" }}</div>
-            <a href="{{ .Permalink }}" class="card-link">Read More →</a>
-          </div>
-        </article>
-        {{ end }}
-      </div>
-    {{ else }}
-      <div style="text-align:center; padding: 80px 0;">
-        <p style="font-size:1.1rem; color:var(--slate);">Articles are on the way — check back soon!</p>
-      </div>
-    {{ end }}
-  </div>
+<div style="max-width: 1200px; margin: 0 auto; padding: 64px 6%;">
+  <div style="display: grid; grid-template-columns: 1fr 280px; gap: 48px;">
+    
+    <!-- MAIN POSTS -->
+    <div>
+      {{ if .Pages }}
+        <div class="cards-grid">
+          {{ range .Pages }}
+          <article class="card">
+            <div class="card-img-placeholder"></div>
+            <div class="card-body">
+              <span class="card-tag">{{ .Params.category | default "Tech" }}</span>
+              <h2 class="card-title">{{ .Title }}</h2>
+              <p class="card-excerpt">{{ .Summary | truncate 120 }}</p>
+              <div class="card-meta">{{ .Date.Format "Jan 2, 2006" }}</div>
+              <a href="{{ .Permalink }}" class="card-link">Read More →</a>
+            </div>
+          </article>
+          {{ end }}
+        </div>
+      {{ else }}
+        <div style="text-align:center; padding: 80px 0;">
+          <p style="font-size:1.1rem; color:var(--slate);">Articles are on the way — check back soon!</p>
+        </div>
+      {{ end }}
+    </div>
 
-  <aside class="blog-sidebar">
-    <div class="sidebar-widget">
-      <h3>Topics</h3>
-      <ul class="sidebar-links">
-        <li><a href="#">PC Upgrades & Tips</a></li>
-        <li><a href="#">Home Servers & Plex</a></li>
-        <li><a href="#">Buying Guides</a></li>
-        <li><a href="#">Troubleshooting</a></li>
-        <li><a href="#">Web & Small Business</a></li>
-      </ul>
-    </div>
-    <div class="sidebar-widget">
-      <h3>Need Help Now?</h3>
-      <p style="font-size:14px; color:var(--slate); margin-bottom:16px;">Skip the reading and get hands-on tech help directly from us.</p>
-      <a href="/contact/" class="btn-primary" style="display:block; text-align:center; font-size:15px;">Get In Touch</a>
-    </div>
-  </aside>
+    <!-- SIDEBAR -->
+    <aside>
+      <div class="sidebar-widget">
+        <h3>Topics</h3>
+        <ul class="sidebar-links">
+          <li><a href="#">PC Upgrades & Tips</a></li>
+          <li><a href="#">Home Servers & Plex</a></li>
+          <li><a href="#">Buying Guides</a></li>
+          <li><a href="#">Troubleshooting</a></li>
+          <li><a href="#">Web & Small Business</a></li>
+        </ul>
+      </div>
+      <div class="sidebar-widget">
+        <h3>Need Help Now?</h3>
+        <p style="font-size:14px; color:var(--slate); margin-bottom:16px;">Skip the reading and get hands-on tech help directly from us.</p>
+        <a href="/contact/" class="btn-primary" style="display:block; text-align:center; font-size:15px;">Get In Touch</a>
+      </div>
+    </aside>
+
+  </div>
 </div>
 
 {{ end }}
