@@ -24,7 +24,6 @@
         <span class="card-tag">{{ .Params.category | default "Tech" }}</span>
         <h3 class="card-title">{{ .Title }}</h3>
         <p class="card-excerpt">{{ .Summary | truncate 120 }}</p>
-        <div class="card-meta">{{ .Date.Format "Jan 2, 2006" }}</div>
         <a href="{{ .Permalink }}" class="card-link">Read More →</a>
       </div>
     </article>
