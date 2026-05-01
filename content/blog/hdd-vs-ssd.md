@@ -40,11 +40,9 @@ I've done this swap on dozens of machines at this point. The reaction is always 
 
 Here's where HDDs still hold their ground: raw storage per dollar.
 
-A [2TB Seagate Barracuda HDD](https://www.amazon.ca/s?k=seagate+barracuda+2tb&tag=techcheck0a-20) runs around $60–70. That's a serious amount of storage for not a lot of money. For media libraries, old files, bulk backups — hard drives still make practical sense.
+A [2TB Seagate Barracuda HDD](https://amzn.to/495ppBG) is a serious amount of storage for not a lot of money. For media libraries, old files, bulk backups — hard drives still make practical sense.
 
-SSDs have gotten significantly cheaper over the last couple of years though. A [Samsung 870 EVO 1TB](https://www.amazon.ca/s?k=samsung+870+evo+1tb&tag=techcheck0a-20) — which is the drive I recommend most often — is around $90–110. Two years ago that same drive was $150+. The gap is closing fast.
-
-If your motherboard has an M.2 slot, a [WD Blue SN570 NVMe 1TB](https://www.amazon.ca/s?k=wd+blue+sn570+1tb&tag=techcheck0a-20) is worth a look at around $80–95. Faster than the SATA 870 EVO, similar price, and it doesn't even use a cable — just plugs straight into the board.
+SSDs have gotten significantly cheaper over the last couple of years though. A [TEAMGROUP T-Force Vulcan Z 1TB](https://amzn.to/4cVILue) — which is the drive I recommend most often — is a great value pick and a straightforward drop-in upgrade for anyone coming from an HDD.
 
 ## Which One Do You Actually Need?
 
@@ -69,4 +67,4 @@ Same rules apply. External SSDs are faster and more durable — no moving parts 
 
 ---
 
-> **Adam's Take:** If your PC is running on a hard drive and you're wondering why everything feels slow — this is why. An SSD upgrade is the single best thing you can do for an aging machine, and it's not even close. I reach for the Samsung 870 EVO most often because it's reliable, well-priced, and I've never had one fail on me. If your board has an M.2 slot, grab the WD SN570 instead and save yourself the cable. Either way, just do it. The difference is night and day, and you'll kick yourself for waiting.
+> **Adam's Take:** If your PC is running on a hard drive and you're wondering why everything feels slow — this is why. An SSD upgrade is the single best thing you can do for an aging machine, and it's not even close. The TEAMGROUP T-Force Vulcan Z is what I'd point most people toward — reliable, well-priced, and a straightforward swap. Just do it. The difference is night and day, and you'll kick yourself for waiting.
