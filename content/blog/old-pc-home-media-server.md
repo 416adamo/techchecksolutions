@@ -36,7 +36,7 @@ A **hard drive docking station** changes the whole equation. You plug it into a 
 
 The one I actually use is the [MAIWO 5 Bay Hard Drive Docking Station](https://amzn.to/4tGIt1q). Five bays, USB 3.0 with UASP for fast transfer speeds, supports drives up to 120TB total capacity, and it has an offline clone function built in — meaning you can duplicate one drive to another without even involving the PC. That last feature alone has saved me more than once.
 
-You can start with one drive and add more as your library grows. Large desktop hard drives are cheap. A 4TB or 8TB drive from Seagate or Western Digital gives you more storage than most people fill in years. The docking station pays for itself quickly compared to what a proper NAS setup costs.
+You can start with one drive and add more as your library grows. Large desktop hard drives are cheap. A [Seagate Barracuda 4TB](https://amzn.to/3OPR8j3) gives you room for hundreds of movies and TV seasons. If you're planning a bigger library from the start, the [Seagate Barracuda 8TB](https://amzn.to/4namKwC) is the better long term investment and the price per gigabyte is hard to beat. The docking station pays for itself quickly compared to what a proper NAS setup costs.
 
 ## Setting Up the Shared Folders
 
@@ -58,7 +58,7 @@ Remote access through Plex works well on the free tier for basic use, but to get
 
 **Using the server as a daily driver too.** The whole point of a dedicated server is that it's always on and always available. If you're using it as your main PC as well, it's getting shut down, restarted at inconvenient times, and loaded with software that has nothing to do with serving media. Keep it dedicated.
 
-**Skipping the SSD for the OS.** Running Windows off an old hard drive makes the machine slow to boot and sluggish to manage. A cheap SSD for the operating system makes a night and day difference. Use the hard drives in your docking station for media storage, not for Windows.
+**Skipping the SSD for the OS.** Running Windows off an old hard drive makes the machine slow to boot and sluggish to manage. A cheap SSD for the operating system makes a night and day difference — something like the [Patriot Burst Elite 120GB](https://amzn.to/49hW0UT) is all you need. Remember, this drive is only for Windows and Plex itself — your actual media goes on the hard drives in the docking station. Size does not matter here, just speed.
 
 **Not planning storage properly.** Think about how much content you actually want to store. Movies average 10–20GB each for good quality. A 4TB drive holds around 200–400 movies. Plan ahead so you're not constantly scrambling for space.
 
