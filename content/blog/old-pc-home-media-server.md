@@ -20,7 +20,7 @@ This is where people overcomplicate it. A Plex media server doesn't need to be p
 - **A fast SSD for the operating system** — You want Windows or Linux running off an SSD so the machine boots fast and runs cleanly. The SSD doesn't need to be big — 120GB or 256GB is plenty for the OS and Plex itself.
 
 **What doesn't matter:**
-- A dedicated GPU — completely unnecessary for a media server
+- A dedicated GPU — not essential, but worth having if you can. If your devices can direct play everything Plex sends them, the GPU sits idle. But the moment Plex starts transcoding — converting files on the fly for different devices or remote connections — a dedicated GPU handles it dramatically better than a CPU alone. Even a budget gaming GPU makes a noticeable difference here. If your server has one, keep it.
 - A powerful CPU — if your devices can direct play (which most modern ones can), Plex barely touches the processor at all
 - Tons of RAM — this isn't a gaming rig, it's a file server
 
